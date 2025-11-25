@@ -9,7 +9,5 @@ func (abb *abb[string]) Altura() int{
 
 
 /*
-	La complejidad de este algoritmo es de O(n)
-	Recorre todos los nodos del arbol solamente una vez, si tengo n nodos
-	entonces tengo complejidad de O(n)
+	Cada nodo se visita una vez 
 */
