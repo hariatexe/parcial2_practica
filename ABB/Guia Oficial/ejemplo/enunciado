@@ -1,0 +1,26 @@
+Se tiene un árbol binario de búsqueda con cadenas como claves y función de comparación strcmp. Implementar una primitiva func (abb *abb) Mayores(cadena string) Lista[string] que, dados un ABB y una clave, devuelva una lista ordenada con las claves del árbol estrictamente mayores a la recibida por parámetro (que no necesariamente está en el árbol). Implementar sin utilizar el iterador Interno del ABB.
+
+
+Aclaración: se debe realizar la menor cantidad posible de comparaciones.
+
+
+// Si se cumple que abb.clave > clave, entonces esta clave del ABB es mayor
+// que la que estoy buscando. Por lo tanto, la tengo que incluir.
+//
+// Pero antes reviso el subárbol izquierdo, porque ahí pueden estar otras claves
+// que también son mayores que `clave`, pero que son menores que abb.clave.
+//
+// Una vez que termino de revisar todo el subárbol izquierdo, la recursión vuelve
+// automáticamente al nodo actual, y recién ahí agrego abb.clave.
+//
+// Después sigo por el subárbol derecho. Como abb.clave > clave, entonces todos
+// los nodos que están a la derecha de abb.clave también son mayores que `clave`,
+// así que también los tengo que recorrer.
+//
+// En resumen: primero izquierda, después el nodo actual, y por último derecha.
+// Y la vuelta para seguir hacia la derecha la hace sola la recursión.
+
+
+Es parecido a un recorrido in-order
+
+izquierda -> nodo -> derecha

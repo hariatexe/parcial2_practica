@@ -1,0 +1,2 @@
+2. (★) ¿Para qué casos la función hash_obtener() tiene una complejidad peor que 
+O(1)? Explicar tanto para el hash abierto, como el cerrado.

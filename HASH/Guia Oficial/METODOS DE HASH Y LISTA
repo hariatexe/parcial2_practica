@@ -1,0 +1,28 @@
+METODOS DE HASH Y LISTA
+
+
+ANOTACIONES: A todos los iteradores internos hay que devolverles return true, para
+seguir iterando
+
+- LA TABLA HASH NO ES MAS QUE UNA IMPLEMENTACION DE UN DICCIONARIO
+
+PRIMITIVAS DEL DICCIONARIO:
+
+type Diccionario[K any, V any] interface {
+	Guardar(clave K, dato V)
+	Pertenece(clave K) bool
+	Obtener(clave K) V
+	Borrar(clave K) V
+	Cantidad() int
+	Iterar(func(clave K, dato V) bool) // ITERADOR INTERNO
+	Iterador() IterDiccionario[K, V] // ITERADOR EXTERNO
+}
+
+
+PRIMITIVAS DEL ITERADOR EXTERNO:
+
+type IterDiccionario[K any, V any] interface {
+	HaySiguiente() bool
+	VerActual() (K, V)
+	Siguiente()
+}

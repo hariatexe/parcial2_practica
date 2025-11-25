@@ -1,0 +1,5 @@
+1. ★) Suponer que se tiene un hash cerrado que se redimensiona cuando el factor de carga llega a 0.75, y que no se tienen en cuenta los elementos borrados a la hora de calcular el factor de carga.
+
+Describir, en términos generales, el peor escenario posible para esta implementación.
+
+Dado un hash de estas características, con capacidad inicial 100, calcular el número máximo de casillas que podría llegar a visitar hash_obtener() si la cantidad actual de elementos en el hash es 1, y no se realizó ningúna redimensión, pero sí se insertaron y borraron elementos. (En otras palabras, poner una cota superior al caso peor de este hash.)

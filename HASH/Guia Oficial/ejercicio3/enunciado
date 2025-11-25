@@ -1,0 +1,5 @@
+(★) Justificar si la siguiente función de hashing es correcta o no:
+func calcularHash(string clave) int {
+    // rand.Intn(x) devuelve un numero entero entre 0 y x
+    return rand.Intn(10000)
+}

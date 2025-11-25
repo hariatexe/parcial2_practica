@@ -1,0 +1,13 @@
+8. (★★★) Se tiene un hash que cuenta con una función de hashing que, recibida una clave, devuelve la posición de su inicial en el abecedario. La capacidad inicial del hash es 26. Para los puntos B, C y D indicar y justificar si las afirmaciones son verdaderas o falsas. Se puede considerar que todas las claves serán palabras (sólo se usan letras para las claves).
+
+a. Mostrar cómo quedan un hash abierto y un hash cerrado (sólo el resultado final) tras guardar las siguientes claves: Ambulancia (0), Gato (6), Manzana (12), Ananá (0), Girasol (6), Zapato (25), Zapallo (25), Manzana (12), Bolso (1). Aclaración: No es necesario hacer una tabla de 26 posiciones, lo importante es que quede claro en cuál posición está cada elemento.
+
+b. En un hash abierto con dicha función de hashing, se decide redimensionar cuando la cantidad alcanza la capacidad (factor de carga = 1). El rendimiento de hash_obtener() es mejor en este caso respecto a si se redimensionara al alcanzar un factor de carga 2.
+
+c. En un hash cerrado con dicha función de hashing, si se insertan n + 1 claves diferentes (considerar que se haya redimensionado acordemente), n con la misma letra inicial, y 1 con otra distinta, en el primer caso Obtener() es 
+O(n) y en el segundo siempre 
+O(1).
+
+d. En un hash abierto con dicha función de hashing, si se insertan n + 1 claves diferentes (considerar que se haya redimensionado acordemente), n con la misma letra inicial, y 1 con otra distinta, en el primer caso Obtener() es 
+O(n) y en el segundo siempre 
+O(1).

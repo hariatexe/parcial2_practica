@@ -1,0 +1,1 @@
+3. (★) Se tiene un AB con números enteros como datos, y se quiere reemplazar cada dato por el resultado de multiplicarlo con los datos de los hijos. Hacer un seguimiento de hacer dicho procesamiento con un preorder, inorder o postorder. A continuación se deja la implementación mediante cada recorrido:

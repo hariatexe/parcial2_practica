@@ -1,0 +1,5 @@
+4. (★★) a. Mostrar el resultado de las siguientes operaciones tanto para un hash cerrado como para un hash abierto, ambos de capacidad 9 e inicialmente vacíos (los números son también el resultado de la función de hashing): insertar 17, insertar 22, insertar 35, borrar 17, insertar 52, insertar 54.
+
+b. Tras estas inserciones ¿qué pasos hay que seguir para verificar si el 70 pertenece al hash?
+
+c. Posteriormente se realizan más inserciones. ¿Cuándo redimensionaría cada hash? ¿Qué pasos hay que seguir para hacerlo?

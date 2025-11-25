@@ -1,0 +1,4 @@
+13. (★★★★★) Se quiere implementar un TDA Diccionario con las siguientes primitivas: Obtener(x) devuelve el valor de x en el diccionario; Insertar(x, y) inserta en el diccionario la clave x con el valor y (entero); Borrar(x) borra la entrada de x; Add(x, n) le suma n al contenido de x; AddAll(m) le suma m a todos los valores.
+
+Proponer una implementación donde todas las operaciones sean 
+O(1). Justificar el orden de las operaciones.

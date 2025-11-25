@@ -1,0 +1,7 @@
+	7. (★★) Implementar el TDA MultiConjunto. Este es un Conjunto que permite más de una aparición de un elemento, por lo que eliminando una aparición, el elemento puede seguir perteneciendo. Dicho TDA debe tener como primitivas:
+	CrearMulticonj[K](): crea un multiconjunto.
+	Guardar(elem K): guarda un elemento en el multiconjunto.
+	Pertenece(elem K) bool: devuelve true si el elemento aparece al menos una vez en el conjunto.
+	Borrar(elem K) bool: elimina una aparición del elemento dentro del conjunto. Devuelve true si se eliminó una aparición del elemento.
+	Dar la estructura del TDA y la implementación de las 4 primitivas marcadas, de forma tal que todas sean O(1).
+
